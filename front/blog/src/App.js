@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./static/css/App.css";
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { getRecordsBlog } from "./Blog/BlogReduxAction";
@@ -13,8 +12,8 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <Header/>
-      <header className="App-header">
+      <Header />
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>React + Flask Tutorial</p>
         <div>
@@ -24,8 +23,8 @@ function App() {
             <h3>LOADING</h3>
           )}
         </div>
-      </header>
-      <Footer/>
+      </header> */}
+      <Footer />
     </div>
   );
 }
