@@ -1,0 +1,22 @@
+{
+  "name": "blogback",
+  "version": "1.0.0",
+  "description": "newsletter",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "blog",
+    "news"
+  ],
+  "author": "aisa i luka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4"
+  }
+}
