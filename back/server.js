@@ -48,7 +48,7 @@ app.get('/testdata', (req, res, next) => {
         .then(testData => {
             console.log(testData);
             res.send(testData.rows);
-        })
+  ``      })
 })
   
 // Require the Routes API  
